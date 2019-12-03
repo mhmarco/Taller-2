@@ -47,6 +47,7 @@
     <Compile Include="Components\Kits\Kit_1.cs" />
     <Compile Include="Components\PhoneScreen.cs" />
     <Compile Include="Components\Speaker.cs" />
+    <Compile Include="ProductsFactory\EnumComponents.cs" />
     <Compile Include="ProductsFactory\IFactory.cs" />
     <Compile Include="ProductsFactory\ProductsFactory.cs" />
     <Compile Include="Program.cs" />

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Taller2.ProductsFactory;
 
 namespace Taller2.Components.Kits
 {
@@ -11,9 +12,10 @@ namespace Taller2.Components.Kits
         public Kit_1() : base(0)
         {
             Number = 105;
-            Name = "Speaker plus AS";
+            Name = "Phone camera plus Battery";
 
-            Add(new Speaker(1500));
+            Add(ProductsConcreteFactory.Instance.CreateComponent(EnumComponents.PHONE_CAMERA));
+            Add(ProductsConcreteFactory.Instance.CreateComponent(EnumComponents.BATTERY));
         }
     }
 }

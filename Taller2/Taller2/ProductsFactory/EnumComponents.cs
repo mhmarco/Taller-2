@@ -8,6 +8,6 @@ namespace Taller2.ProductsFactory
 {
     public enum EnumComponents
     {
-        SPEAKER, GRAPHIC_CARD, PHONE_SCREEN, BATERY, PHONE_CAMERA
+        SPEAKER, GRAPHIC_CARD, PHONE_SCREEN, BATTERY, PHONE_CAMERA
     }
 }
