@@ -10,6 +10,7 @@ namespace Taller2
     {
         static void Main(string[] args)
         {
+
         }
     }
 }

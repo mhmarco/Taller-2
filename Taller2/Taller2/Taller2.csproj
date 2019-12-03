@@ -46,6 +46,7 @@
     <Compile Include="Components\Battery.cs" />
     <Compile Include="Components\GraphicCard.cs" />
     <Compile Include="Components\Kits\Kit_1.cs" />
+    <Compile Include="Components\Kits\Kit_2.cs" />
     <Compile Include="Components\PhoneCamera.cs" />
     <Compile Include="Components\PhoneScreen.cs" />
     <Compile Include="Components\Speaker.cs" />
