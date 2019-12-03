@@ -13,7 +13,6 @@ namespace Taller2.Components
             Number = 101;
             Name = "Phone Screen";
             ExpectedRequiredtime = 3;
-
         }
     }
 }
