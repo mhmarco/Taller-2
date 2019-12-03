@@ -7,15 +7,20 @@ using Taller2.ProductsFactory;
 
 namespace Taller2.Components.Kits
 {
-    class Kit_2 : AComponent
+    class Kit_2 : BaseKit
     {
-        public Kit_2() : base(0)
+        public Kit_2()
         {
             Number = 107;
             Name = "Kit Gamer";
 
             Add(ProductsConcreteFactory.Instance.CreateComponent(EnumComponents.GRAPHIC_CARD));
             Add(ProductsConcreteFactory.Instance.CreateComponent(EnumComponents.PHONE_SCREEN));
+        }
+
+        public override double GetPrice()
+        {
+            return base.GetPrice();
         }
     }
 }

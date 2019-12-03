@@ -11,7 +11,7 @@ namespace Taller2.Components
         public PhoneCamera(double price) : base(price)
         {
             Number = 105;
-            Name = "PhoneCamera";
+            Name = "Cámara de teléfono";
             ExpectedRequiredtime = 4;
 
         }

@@ -11,7 +11,7 @@ namespace Taller2.Components
         public GraphicCard(double price) : base(price)
         {
             Number = 102;
-            Name = "Graphic Card";
+            Name = "Tarjeta gráfica";
             ExpectedRequiredtime = 5;
         }
     }

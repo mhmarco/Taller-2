@@ -15,9 +15,9 @@ namespace Taller2.Components
         public int Number { get; set; }
         public string Name { get; set; }
         public double ExpectedRequiredtime { get; set; }
-        private double Price;
+        protected double Price;
 
-        private List<AComponent> components = new List<AComponent>();
+        protected List<AComponent> components = new List<AComponent>();
 
         public AComponent(double price)
         {
@@ -34,10 +34,7 @@ namespace Taller2.Components
         }
         public virtual double GetPrice()
         {
-            foreach (var component in components)
-                Price += component.GetPrice();
-
-            return Price * 0.75;
+            return Price;
         }
     }
 }

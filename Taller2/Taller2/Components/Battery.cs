@@ -11,7 +11,7 @@ namespace Taller2.Components
         public Battery(double price) : base(price)
         {
             Number = 104;
-            Name = "Battery";
+            Name = "Batería";
             ExpectedRequiredtime = 2;
         }
     }
