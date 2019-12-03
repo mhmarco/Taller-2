@@ -11,6 +11,12 @@ namespace Taller2.ProductsFactory
     {
         private static ProductsConcreteFactory _instance;
 
+        public int SpeakerPrice { get; set; }
+        public int GraphicCardPrice { get; set; }
+        public int PhoneCameraPrice { get; set; }
+        public int PhoneScreenPrice { get; set; }
+        public int BatteryPrice { get; set; }
+
         public static ProductsConcreteFactory Instance
         {
             get
@@ -24,26 +30,33 @@ namespace Taller2.ProductsFactory
             }
         }
 
-        private ProductsConcreteFactory() { 
-}
+        private ProductsConcreteFactory()
+        {
+            SpeakerPrice = 7500;
+            GraphicCardPrice = 54000;
+            PhoneCameraPrice = 15000;
+            PhoneScreenPrice = 56000;
+            BatteryPrice = 23000;
+        }
+
         public AComponent CreateComponent(EnumComponents component)
         {
             switch(component)
             {
                 case EnumComponents.SPEAKER:
-                    return new Speaker(1500);
+                    return new Speaker(SpeakerPrice);
 
                 case EnumComponents.GRAPHIC_CARD:
-                    return new Speaker(17000);
+                    return new Speaker(GraphicCardPrice);
 
                 case EnumComponents.PHONE_CAMERA:
-                    return new Speaker(5000);
+                    return new Speaker(PhoneCameraPrice);
 
                 case EnumComponents.PHONE_SCREEN:
-                    return new Speaker(6000);
+                    return new Speaker(PhoneScreenPrice);
 
                 case EnumComponents.BATTERY:
-                    return new Speaker(7500);
+                    return new Speaker(BatteryPrice);
 
                 default:
                     throw new Exception("El componente no existe");
