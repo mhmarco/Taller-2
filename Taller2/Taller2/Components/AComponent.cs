@@ -34,7 +34,8 @@ namespace Taller2.Components
         }
         public virtual double GetPrice()
         {
-            foreach (var component in components);
+            foreach (var component in components)
+                Price += component.GetPrice();
 
             return Price * 0.75;
         }
