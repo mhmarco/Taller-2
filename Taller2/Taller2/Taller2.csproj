@@ -43,7 +43,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Components\AComponent.cs" />
+    <Compile Include="Components\GraphicCard.cs" />
+    <Compile Include="Components\Kits\Kit_1.cs" />
     <Compile Include="Components\PhoneScreen.cs" />
+    <Compile Include="Components\Speaker.cs" />
+    <Compile Include="ProductsFactory\IFactory.cs" />
+    <Compile Include="ProductsFactory\ProductsFactory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
