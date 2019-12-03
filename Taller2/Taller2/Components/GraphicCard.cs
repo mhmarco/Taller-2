@@ -6,6 +6,11 @@ using System.Threading.Tasks;
 
 namespace Taller2.Components
 {
+    /// <summary>
+    /// Graphic Card Component
+    /// </summary>
+    /// 
+    /// @Author Marco Morales
     public class GraphicCard : AComponent
     {
         public GraphicCard(double price) : base(price)

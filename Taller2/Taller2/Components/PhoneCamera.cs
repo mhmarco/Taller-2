@@ -6,6 +6,11 @@ using System.Threading.Tasks;
 
 namespace Taller2.Components
 {
+    /// <summary>
+    /// Phone Camera component
+    /// </summary>
+    /// 
+    /// @Author Marco Morales
     class PhoneCamera : AComponent
     {
         public PhoneCamera(double price) : base(price)

@@ -6,6 +6,11 @@ using System.Threading.Tasks;
 
 namespace Taller2.Components
 {
+    /// <summary>
+    /// Speaker Component
+    /// </summary>
+    /// 
+    /// @Author Marco Morales
     public class Speaker : AComponent
     {
         public Speaker(double price) : base(price)
