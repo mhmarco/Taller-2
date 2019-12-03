@@ -43,6 +43,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Components\AComponent.cs" />
+    <Compile Include="Components\Battery.cs" />
+    <Compile Include="Components\PhoneCamera.cs" />
     <Compile Include="Components\PhoneScreen.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
