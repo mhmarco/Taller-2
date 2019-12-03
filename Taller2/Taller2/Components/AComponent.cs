@@ -4,10 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-/// <summary>
-/// 
-/// </summary>
-///
+    /// <summary>
+    /// Kit with two components.
+    /// </summary>
+    /// 
+    /// @Author Jose Ulloa
+    /// @Author Marco Morales
 namespace Taller2.Components
 {
     public abstract class AComponent

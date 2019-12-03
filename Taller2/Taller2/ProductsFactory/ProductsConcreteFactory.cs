@@ -7,6 +7,12 @@ using Taller2.Components;
 
 namespace Taller2.ProductsFactory
 {
+    /// <summary>
+    /// Factory of componets.
+    /// </summary>
+    /// 
+    /// @Author Jose Ulloa
+    /// @Author Marco Morales
     public class ProductsConcreteFactory : IFactory
     {
         private static ProductsConcreteFactory _instance;

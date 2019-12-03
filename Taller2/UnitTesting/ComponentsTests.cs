@@ -5,6 +5,12 @@ using Taller2.ProductsFactory;
 
 namespace UnitTesting
 {
+    /// <summary>
+    /// Simple test cases of components.
+    /// </summary>
+    /// 
+    /// @Author Jose Ulloa
+    /// @Author Marco Morales
     [TestClass]
     public class ComponentsTests
     {

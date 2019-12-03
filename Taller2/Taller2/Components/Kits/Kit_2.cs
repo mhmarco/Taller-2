@@ -7,6 +7,12 @@ using Taller2.ProductsFactory;
 
 namespace Taller2.Components.Kits
 {
+    /// <summary>
+    /// Kit with two components.
+    /// </summary>
+    /// 
+    /// @Author Jose Ulloa
+    /// @Author Marco Morales
     class Kit_2 : BaseKit
     {
         public Kit_2()

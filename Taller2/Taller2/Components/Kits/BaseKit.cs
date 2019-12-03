@@ -6,6 +6,12 @@ using System.Threading.Tasks;
 
 namespace Taller2.Components.Kits
 {
+    /// <summary>
+    /// Simple kit class
+    /// </summary>
+    /// 
+    /// @Author Jose Ulloa
+    /// @Author Marco Morales
     public class BaseKit : AComponent
     {
         public BaseKit() : base(0)
