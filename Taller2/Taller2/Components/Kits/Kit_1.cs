@@ -12,7 +12,7 @@ namespace Taller2.Components.Kits
         public Kit_1() : base(0)
         {
             Number = 105;
-            Name = "Phone camera plus Battery";
+            Name = "Cámara de teléfono más batería";
 
             Add(ProductsConcreteFactory.Instance.CreateComponent(EnumComponents.PHONE_CAMERA));
             Add(ProductsConcreteFactory.Instance.CreateComponent(EnumComponents.BATTERY));

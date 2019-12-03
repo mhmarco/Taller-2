@@ -15,7 +15,7 @@ namespace Taller2.Components
         public int Number { get; set; }
         public string Name { get; set; }
         public double ExpectedRequiredtime { get; set; }
-        private double Price = 0;
+        private double Price;
 
         private List<AComponent> components = new List<AComponent>();
 
